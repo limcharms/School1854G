@@ -1,3 +1,75 @@
-# Build folder and log file
-build/
-build.log
+# Создано https://www.toptal.com/developers/gitignore/api/windows,notepadpp,android
+# Редактировать на https://www.toptal.com/developers/gitignore?templates=windows,notepadpp,android
+
+### Андроид ###
+# Gradle-файлы
+.град/
+строить/
+
+# Локальный файл конфигурации (путь к SDK и т.д.)
+местные.свойства
+
+# Файлы журнала/ОС
+*.бревно
+
+# Созданные Android Studio файлы и папки
+захватывает /
+.externalNativeBuild/
+.cxx/
+*.апк
+вывод.json
+
+# IntelliJ
+*.iml
+.идея/
+разное.xml
+развертываниеTargetDropDown.xml
+визуализировать.experimental.xml
+
+# файлы хранилища ключей
+*.jks
+*.хранилище ключей
+
+# Службы Google (например, API или Firebase)
+google-services.json
+
+# Профилирование Android
+*.hprof
+
+### Патч Android ###
+gen-внешние-apklibs
+
+# Введена замена каталогов .externalNativeBuild
+# с Android Studio 3.5.
+
+### БлокнотPP ###
+# Резервные копии Notepad++ #
+*.бак
+
+### Окна ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: зашифровано
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+*.стекдамп
+
+# Конфигурационный файл папки
+[Dd]esktop.ini
+
+# Корзина, используемая в файловых ресурсах
+$РЕЦИКЛ.БИН/
+
+# файлы установщика Windows
+*.такси
+*.msi
+*.msix
+*.msm
+*.MSP
+
+# Ярлыки Windows
+*.lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/windows,notepadpp,android
